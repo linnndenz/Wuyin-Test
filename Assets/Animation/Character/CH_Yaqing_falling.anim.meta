@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Animation/Character/CH_Yaqing_falling.anim.meta
+guid: bff4ef61e45cc284687413ee29b166d3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+========
+guid: e1da9d83369cc2c48ba27723f9d7806f
+DefaultImporter:
+  externalObjects: {}
+>>>>>>>> 503f1ee (Dev soda (#41)):Assets/Animation/Cutscene/D01_main_shouweizulan/D01_main_shouweizulan.unity.meta
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
