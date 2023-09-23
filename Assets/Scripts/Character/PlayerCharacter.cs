@@ -51,6 +51,7 @@ public class PlayerCharacter : MonoBehaviour
     protected readonly int m_AnimClimbing = Animator.StringToHash("climbing");
     protected readonly int m_AnimClimbIdx = Animator.StringToHash("climb");
     protected readonly int m_AnimDirection = Animator.StringToHash("direction");
+    protected readonly int m_AnimCatchState = Animator.StringToHash("catchState");
     private string m_ForceAnimation = "";
 
     // Flags
@@ -536,6 +537,11 @@ public class PlayerCharacter : MonoBehaviour
                 m_Animator.SetInteger(m_AnimDirection, (int)PlayerInput.PlayerDirection.Left);
             }
         }
+    }
+
+    public void SetAnimCatchState(int s)
+    {
+        m_Animator.SetInteger(m_AnimCatchState, s);
     }
 
     public void AttachTextToBubble()
