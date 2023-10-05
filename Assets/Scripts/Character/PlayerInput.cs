@@ -156,6 +156,15 @@ public class PlayerInput : InputComponent
 
         return false;
     }
+    public bool HasInteractDown()
+    {
+        if (Input.GetKeyDown(KeyCode.J)) 
+            return true;
+        if (Input.GetMouseButtonDown(0))
+            return true;
+
+        return false;
+    }
 
     public bool ProceedDialogue()
     {
